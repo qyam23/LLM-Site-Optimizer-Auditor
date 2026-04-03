@@ -1,0 +1,58 @@
+{
+  "websiteUrl": "https://starostaindustrial.com/",
+  "repoUrl": "https://github.com/qyam23/YUVAL-STAROSTA-ENGINEERING",
+  "timestamp": "2026-04-02T20:05:00.000Z",
+  "overallScore": 85,
+  "aiReadinessScore": 90,
+  "seoScore": 78,
+  "repoAlignmentScore": 80,
+  "contentClarityScore": 85,
+  "reliability": {
+    "verifiedCount": 15,
+    "likelyCount": 0,
+    "uncertainCount": 0,
+    "failedCount": 0,
+    "confidenceLevel": "MEDIUM",
+    "warnings": [
+      "Homepage-only scan: Site-wide structural findings may be incomplete."
+    ]
+  },
+  "metrics": {
+    "totalRawInternalLinks": 42,
+    "totalUniqueInternalLinks": 12,
+    "crawledPagesCount": 1
+  },
+  "pages": [
+    {
+      "url": "https://starostaindustrial.com/",
+      "status": 200,
+      "title": "Starosta Industrial Engineering",
+      "wordCount": 650,
+      "pageType": "landing",
+      "score": 95,
+      "diagnostics": {
+        "htmlLength": 15420,
+        "textLength": 4200,
+        "anchorsFound": 45,
+        "anchorsParsed": 42,
+        "internalLinksFound": 30,
+        "externalLinksFound": 12,
+        "headingsFoundCount": 8,
+        "parseSuccess": true,
+        "parseMethodUsed": "playwright_render",
+        "parseAttempts": ["static", "playwright_render"],
+        "renderType": "rendered",
+        "playwrightAvailable": true,
+        "playwrightUsed": true,
+        "renderedHtmlLength": 18500,
+        "renderedTextLength": 4500,
+        "renderedAnchorsCount": 48
+      }
+    }
+  ],
+  "consistencyChecks": {
+    "repoUiVsJsonConsistent": true,
+    "reportVsJsonConsistent": true,
+    "pageMetricsConsistent": true
+  }
+}

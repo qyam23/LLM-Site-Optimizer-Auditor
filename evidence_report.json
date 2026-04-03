@@ -1,0 +1,78 @@
+{
+  "resourceChecks": [
+    {
+      "url": "https://starostaindustrial.com/llms.txt",
+      "status": 200,
+      "finalUrl": "https://starostaindustrial.com/llms.txt",
+      "contentType": "text/plain",
+      "result": "FOUND",
+      "trustLevel": "VERIFIED",
+      "evidenceSnippet": "llms.txt content...",
+      "timestamp": "2026-04-02T20:04:55.000Z"
+    },
+    {
+      "url": "https://starostaindustrial.com/docs/index.md",
+      "status": 200,
+      "finalUrl": "https://starostaindustrial.com/docs/index.md",
+      "contentType": "text/markdown",
+      "result": "FOUND",
+      "trustLevel": "VERIFIED",
+      "evidenceSnippet": "# Documentation Index...",
+      "timestamp": "2026-04-02T20:04:57.000Z"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://starostaindustrial.com/",
+      "status": 200,
+      "title": "Starosta Industrial Engineering",
+      "rawInternalLinksCount": 42,
+      "uniqueInternalLinksCount": 12,
+      "wordCount": 650,
+      "diagnostics": {
+        "htmlLength": 15420,
+        "textLength": 4200,
+        "anchorsFound": 45,
+        "anchorsParsed": 42,
+        "internalLinksFound": 42,
+        "externalLinksFound": 3,
+        "headingsFoundCount": 12,
+        "parseSuccess": true,
+        "parseNotes": "Parsed successfully"
+      }
+    }
+  ],
+  "findings": [
+    {
+      "title": "llms.txt presence",
+      "status": "VERIFIED",
+      "isStrength": true,
+      "details": "llms.txt was found and is accessible.",
+      "evidence": {
+        "url": "https://starostaindustrial.com/llms.txt",
+        "statusCode": 200,
+        "timestamp": "2026-04-02T20:04:55.000Z"
+      }
+    }
+  ],
+  "repo": {
+    "detectedStack": "Vite / React",
+    "filesFound": [
+      {
+        "path": "llms.txt",
+        "exists": true,
+        "trustLevel": "VERIFIED",
+        "evidence": "Found in root directory"
+      },
+      {
+        "path": "docs/index.md",
+        "exists": true,
+        "trustLevel": "VERIFIED",
+        "evidence": "Found in docs/ directory"
+      }
+    ],
+    "gaps": [
+      "Missing docs/file-map.md in repository"
+    ]
+  }
+}

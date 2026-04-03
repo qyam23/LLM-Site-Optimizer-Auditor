@@ -1,11 +1,43 @@
-<div align="center">
+# LLM Site Optimizer Auditor
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A professional auditing tool designed to analyze websites for AI discoverability, SEO structure, and semantic clarity. This application helps developers and site owners optimize their content for LLM (Large Language Model) ingestion.
 
-  <h1>Built with AI Studio</h2>
+## Features
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **Website Crawler**: Deep analysis of internal pages, heading hierarchies, and metadata.
+- **AI Readiness Audit**: Checks for `llms.txt`, machine-readable documentation, and semantic structure.
+- **SEO Technical Audit**: Evaluates titles, descriptions, canonicals, and robots meta.
+- **Repository Analysis**: Inspects GitHub repositories to detect tech stacks and documentation gaps.
+- **Markdown Report Generation**: Generates a professional, structured report ready for ChatGPT or other AI tools.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Tech Stack
 
-</div>
+- **Frontend**: React, TypeScript, Tailwind CSS, Motion (Framer Motion).
+- **Backend**: Node.js, Express, Cheerio (for crawling/parsing), Playwright (for browser-rendered fallback).
+- **Icons**: Lucide React.
+
+## How to Run Locally
+
+1. **Clone the repository** (or download the source).
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+3. **Install Playwright Browsers** (Required for browser-rendered fallback):
+   ```bash
+   npx playwright install chromium
+   ```
+4. **Start the application**:
+   ```bash
+   npm run dev
+   ```
+5. **Access the UI**: Open your browser to `http://localhost:3000`.
+
+## Usage
+
+1. Enter a **Website URL** (required).
+2. Optionally enter a **GitHub Repository URL** (e.g., `owner/repo`).
+3. Configure crawl depth and audit options.
+4. Click **Start Audit**.
+5. Once complete, review the findings in the dashboard.
+6. Click **Export MD** to download the professional Markdown report.
